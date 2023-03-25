@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Curriculum Vitae</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../estilos/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__titulo">
+        <h1 class="header__nombre">Sid Leguizamo</h1>
+        <h2 class="header__trabajo">Desarrollador Web</h2>
+      </div>
+      <button id="nav-btn" class="btn_hambur">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </button>
+      <nav class="header__nav">
+        <ul>
+          <li><a id="nav-inicio" href="../index.html">Inicio</a></li>
+          <li><a id="nav-cv" href="./cv.html">CV</a></li>
+          <li>
+            <a id="nav-proyectos" href="./proyectos.html">Proyectos</a>
+          </li>
+          <li><a id="nav-contacto" href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contacto">
+      <h1 class="main_titulo">Contacto</h1>
+      <section class="info_contacto">
+        <section class="pag_contacto">
+          <a href="https://facebook.com/decticma2023" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="http://www.skype.com/decticma2023?chat">
+            <i class="fab fa-skype"></i>
+          </a>
+          <a href="https://github.com/decticma2023" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/decticma2023/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          
+        </section>
+        <div><strong>Celular</strong>: 011 234567890</div>
+        <div><strong>Email</strong>: decticmas@gmail.com</div>
+      </section>
+      <section class="formu_contacto">
+        <form>
+          <legend>Por favor escriba aquí sus datos, espero su email</legend>
+          <input type="text" name="Nombre" placeholder="Nombre" />
+          <input type="email" email="email" placeholder="Email" />
+          <input type="tel" phone="Celular" placeholder="Celular" />
+          <textarea
+            rows="10"
+            name="message"
+            placeholder="Deje aquí su mensaje"
+          ></textarea>
+          <button type="submit" onclick="alert('El botón esta deshabilitado momentaneamente, Gracias!')">
+            Enviar
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section id="celular" class="item_pie">
+        <div class="iconos_pie">
+          <i class="fas fa-phone"></i>
+        </div>
+        <div class="datos_pie">
+          <div>Celular</div>
+          <div>011 234567890</div>
+        </div>
+      </section>
+      <section id="email" class="item_pie">
+        <div class="iconos_pie">
+          <i class="far fa-envelope"></i>
+        </div>
+        <div class="datos_pie">
+          <div>Contacto</div>
+          <div>decticmas@gmail.com</div>
+        </div>
+      </section>
+      <section id="red_social" class="item_pie">
+        <div class="iconos_pie">
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="datos_pie">
+          <div>Seguirme</div>
+          <a href="https://facebook.com/decticma2023/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="http://www.skype.com/decticma2023?chat">
+            <i class="fab fa-skype"></i
+          ></a>
+          <a href="https://github.com/decticma2023/" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/decticma2023/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </section>
+    </footer>
+    <script src="../scripts/scripts.js"></script>
+  </body>
+</html>

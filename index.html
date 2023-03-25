@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Curriculum Vitae</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./estilos/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__titulo">
+        <h1 class="header__nombre">Sid Leguizamo</h1>
+        <h2 class="header__trabajo">Desarrollador Web</h2>
+      </div>
+      <button id="nav-btn" class="btn_hambur">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </button>
+      <nav class="header__nav">
+        <ul>
+          <li><a id="nav-inicio" href="#">Inicio</a></li>
+          <li><a id="nav-cv" href="./paginas/cv.html">CV</a></li>
+          <li><a id="nav-proyectos" href="./paginas/proyectos.html">Proyectos</a></li>
+          <li><a id="nav-contacto" href="./paginas/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="home">
+      <section class="saludo">
+        <div class="hola">Hola,</div>
+        <span class="algo_de_mi">Algo acerca de mí:</span>
+      </section>
+      <section class="circulos">
+        <a
+          class="grupo_circulos circulo_cv"
+          href="./paginas/cv.html"
+          >Mi Curriculum Vitae</a
+        >
+        <a
+          class="grupo_circulos circulo_proy"
+          href="./paginas/proyectos.html"
+          >Mis proyectos</a
+        >
+        <a
+          class="grupo_circulos circulo_cont"
+          href="./paginas/contacto.html"
+          >Contacto</a
+        >
+      </section>
+      <section class="rostro">
+        <div class="contenedor-rostro">
+          <img src="imagenes/imagen.jpg" alt="Imagen1">
+        </div>
+      </section>
+      <section class="introduccion">
+        <p class="introd_texto">
+          Soy graduado de la carrera de ingeniería informática de la UBA 
+          lo que me ayudo a desarrollar una gran capacidad de adaptación, 
+          flexibilidad y trabajo en equipo. Soy una persona orientada a objetivos 
+          y resultados. Tengo varios años de experiencias y logros en este campo.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <section id="celular" class="item_pie">
+        <div class="iconos_pie">
+          <i class="fas fa-phone"></i>
+        </div>
+        <div class="datos_pie">
+          <div>Celular</div>
+          <div>011 234567890</div>
+        </div>
+      </section>
+      <section id="email" class="item_pie">
+        <div class="iconos_pie">
+          <i class="far fa-envelope"></i>
+        </div>
+        <div class="datos_pie">
+          <div>Contacto</div>
+          <div>decticmas@gmail.com</div>
+        </div>
+      </section>
+      <section id="red_social" class="item_pie">
+        <div class="iconos_pie">
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="datos_pie">
+          <div>Mis redes sociales</div>
+          <a href="https://facebook.com/decticma2023/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="http://www.skype.com/decticma2023?chat">
+            <i class="fab fa-skype"></i
+          ></a>
+          <a href="https://github.com/decticma2023" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/decticma2023/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </section>
+    </footer>
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>

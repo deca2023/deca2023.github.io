@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Curriculum Vitae</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../estilos/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__titulo">
+        <h1 class="header__nombre">Sid Leguizamo</h1>
+        <h2 class="header__trabajo">Desarrollador Web</h2>
+      </div>
+      <button id="nav-btn" class="btn_hambur">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </button>
+      <nav class="header__nav">
+        <ul>
+          <li><a id="nav-inicio" href="../index.html">Inicio</a></li>
+          <li><a id="nav-cv" href="#">CV</a></li>
+          <li>
+            <a id="nav-proyectos" href="./proyectos.html">Proyectos</a>
+          </li>
+          <li><a id="nav-contacto" href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="cv">
+      <h1 class="main_titulo">Mi Curriculum Vitae</h1>
+      <section class="cv_seccion cv_profesion">
+        <div class="cv_datos">Información Profesional</div>
+        <p class="cv_detalle_texto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          cursus erat ex, quis laoreet urna molestie a. Sed quis commodo sem,
+          quis congue urna. Ut eget elit nec metus malesuada tempor. Fusce
+          dapibus, mauris sed malesuada viverra, est turpis facilisis lectus,
+          finibus auctor nulla justo imperdiet felis. In laoreet accumsan nibh,
+          sit amet ornare lacus euismod.
+        </p>
+      </section>
+      <section class="cv_seccion cv_experiencia">
+        <div class="cv_datos">Experiencia</div>
+        <section>
+          <div class="cv_trabajos">Líder de proyecto WEB (TRUST Tecnology Arg)</div>
+          <div class="cv_periodos">Abr 2020 - hasta hoy</div>
+          <p class="cv_detalle_texto">
+            Como jefe de proyecto web garanticé la supervisión y coordinación de varias 
+            tareas a realizar por el equipo de desarrollo web, dirigí a los equipos, 
+            hablaba con el cliente y brindaba los informes de progreso al gerente de la 
+            sección de forma regular.
+            
+          </p>
+        </section>
+        <section>
+          <div class="cv_trabajos">Desarrollador WEB (Technical Group Arg)</div>
+          <div class="cv_periodos">Nov 2015 - Feb 2020</div>
+          <p class="cv_detalle_texto">
+            En esta compañía era el encargado de supervisar a los programadores junior 
+            en los 5 proyectos más importantes de Argentina y gestionaba diversas tareas 
+            de programación como escribir código, analizar datos y contribuir al diseño e 
+            implementación de software entre otras tareas.
+            
+          </p>
+        </section>
+      </section>
+      <section class="cv_seccion cv_educacion">
+        <div class="cv_datos">Educación</div>
+        <section>
+          <div class="cv_trabajos">Universidad de Buenos Aires, Argentina</div>
+          <div class="cv_periodos">2010 - 2015</div>
+          <p class="cv_detalle_texto">
+            En esta reconocida universidad, tuve la oportunidad de estudiar la 
+            carrera de Ingeniería en Informática. Recibiendome con los mas altos 
+            honores académicos en la especialidad de Informática.
+
+          </p>
+        </section>
+      </section>
+      <aside class="cv_aside_idiomas">
+        <section class="cv_idiomas">
+          <div class="cv_iconos"><i class="fa fa-language"></i></div>
+          <div class="cv_datos--small">Idiomas</div>
+          <ul>
+            <li>Inglés</li>
+            <li>Español</li>
+          </ul>
+        </section>
+        <section class="cv_habilidades">
+          <div class="cv_iconos"><i class="fa fa-wrench"></i></div>
+          <div class="cv_datos--small">Habilidades</div>
+          <ul>
+            <li>Html-CSS</li>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+            <li>...</li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+    <footer>
+      <section id="celular" class="item_pie">
+        <div class="iconos_pie">
+          <i class="fas fa-phone"></i>
+        </div>
+        <div class="datos_pie">
+          <div>Celular</div>
+          <div>011 234567890</div>
+        </div>
+      </section>
+      <section id="email" class="item_pie">
+        <div class="iconos_pie">
+          <i class="far fa-envelope"></i>
+        </div>
+        <div class="datos_pie">
+          <div>Contacto</div>
+          <div>decticmas@gmail.com</div>
+        </div>
+      </section>
+      <section id="red_social" class="item_pie">
+        <div class="iconos_pie">
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="datos_pie">
+          <div>Seguirme</div>
+          <a href="https://facebook.com/decticma2023/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="http://www.skype.com/decticma2023?chat">
+            <i class="fab fa-skype"></i
+          ></a>
+          <a href="https://github.com/decticma2023/" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/decticma2023/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>        
+        </div>
+      </section>
+    </footer>
+    <script src="../scripts/scripts.js"></script>
+  </body>
+</html>
